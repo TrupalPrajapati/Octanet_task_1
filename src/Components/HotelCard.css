@@ -1,0 +1,80 @@
+.title{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.HotelCard .card {
+    width: 330px;
+    height: 330px;
+    /* margin-top: 3rem; */
+    margin: 3rem 20px 20px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 0 0 250px;
+  }
+  .HotelCard .card:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .HotelCard .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .HotelCard .card h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .HotelCard .explore-button {
+    margin-top: 0.9rem;
+    background-color: #bababa; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .HotelCard .explore-button:hover{
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .d-image{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 7px;
+  }
+
+  .d-image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+    border-radius: 7px;
+  }
+
+  .d-image:hover img{
+    transform: scale(1.1);
+}
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    justify-content: flex-start;
+    gap: 0px;
+  }
+
+
